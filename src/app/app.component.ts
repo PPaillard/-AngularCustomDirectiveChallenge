@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angularCustomDirectiveExercice';
+  title = 'Bienvenue sur ma page'
+  listeFilms = 'Liste de films';
+  showMovies:boolean = true;
 }
